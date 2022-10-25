@@ -21,7 +21,7 @@ This App has not been deployed yet.
 ## Getting Started
 
 1- clone Repo.
-git clone [(https://github.com/SaboorSohaib/my-to-do-list.git)]
+git clone [(https://github.com/SaboorSohaib/Leaderboard.git)]
 
 2- Install npm (node pakage manager)
 **you can run any one of these commands to install npm on your machine:**
