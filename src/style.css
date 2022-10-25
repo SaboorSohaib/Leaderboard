@@ -1,6 +1,73 @@
-.hello {
-    color: red;
-  }
-  body {
-    background-color: bisque;
+/* stylelint-disable no-descending-specificity */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Neue', sans-serif;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60vh;
+}
+
+.score-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  width: 40%;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.show-scores {
+  border: 3px solid black;
+  padding: 10px;
+  width: 100%;
+  list-style: none;
+  font-size: 20px;
+}
+
+.score-header button {
+  padding: 5px;
+  cursor: pointer;
+  width: 80px;
+  box-shadow: 3px 3px black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input {
+  padding: 5px;
+  box-shadow: 3px 3px black;
+}
+
+form button {
+  padding: 5px;
+  width: 80px;
+  box-shadow: 3px 3px black;
+  align-self: flex-end;
+  cursor: pointer;
 }

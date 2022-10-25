@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Leaderboard Game</title>
 </head>
 <body>
-    <h1>Hello webpack!</h1>
+    <h1 class="header">Leaderboard</h1>
+    <main>
+       <div class="score-header">
+           <div class="table-header">
+              <h2>Recent Scores</h2>
+              <button type="button">Refersh</button>
+           </div>
+         <div class="show-scores"></div>
+       </div>
+       <form>
+        <h2>Add Your Scores</h2>
+        <input type="text" name="name" id="" placeholder="Your Name">
+        <input type="text" name="name" id="" placeholder="Your Scores">
+        <button type="submit" class="submit-btn">Submit</button>
+       </form>
+    </main>
 </body>
 </html>
