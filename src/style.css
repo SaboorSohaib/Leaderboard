@@ -6,6 +6,10 @@
 }
 
 body {
+  background-image: url(../images/green-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   font-family: 'Comic Neue', sans-serif;
 }
 
@@ -43,14 +47,27 @@ main {
   padding: 10px;
   width: 100%;
   list-style: none;
-  font-size: 20px;
+  font-size: 24px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
 }
 
 .score-header button {
   padding: 5px;
   cursor: pointer;
+  border: navajowhite;
   width: 80px;
   box-shadow: 3px 3px black;
+  transition: all 0.25s ease;
+  font-size: 16px;
+}
+
+.score-header button:hover {
+  scale: 1.2;
+  color: red;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
 }
 
 form {
@@ -62,6 +79,14 @@ form {
 form input {
   padding: 5px;
   box-shadow: 3px 3px black;
+  border: none;
+  transition: all 0.25s ease;
+}
+
+form input:focus {
+  border-radius: 10px;
+  border: none;
+  background-image: linear-gradient(to right, rgba(202, 60, 50, 0.522), rgba(83, 158, 60, 0.522));
 }
 
 form button {
@@ -70,6 +95,16 @@ form button {
   box-shadow: 3px 3px black;
   align-self: flex-end;
   cursor: pointer;
+  transition: all 0.25s ease;
+  border: none;
+}
+
+form button:hover {
+  scale: 1.2;
+  color: red;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
 }
 
 .user-score-table {
