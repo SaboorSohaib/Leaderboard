@@ -71,3 +71,9 @@ form button {
   align-self: flex-end;
   cursor: pointer;
 }
+
+.user-score-table {
+  list-style: none;
+  display: flex;
+  padding: 5px;
+}
