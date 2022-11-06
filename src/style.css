@@ -55,7 +55,7 @@ main {
 .score-header button {
   padding: 5px;
   cursor: pointer;
-  border: navajowhite;
+  border: rgb(255, 220, 220);
   width: 80px;
   box-shadow: 3px 3px black;
   transition: all 0.25s ease;
